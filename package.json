@@ -1,0 +1,57 @@
+{
+  "name": "never-undefined",
+  "version": "1.0.2",
+  "description": "Optional chaining with a recursive ES6 Proxy",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "optional",
+    "chaining",
+    "never undefined",
+    "undefined",
+    "no undefined",
+    "nested",
+    "nested property",
+    "property access",
+    "properties",
+    "object properties"
+  ],
+  "author": "v1ll0",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.16.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "helpers": false,
+          "regenerator": true
+        }
+      ]
+    ]
+  }
+}

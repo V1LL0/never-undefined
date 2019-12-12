@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+
+  "env": {
+    "jest": true,
+    "node": true
+  },
+
+  "rules": {
+    "one-var": "off",
+    "prefer-const": "warn",
+    "no-unused-vars": "warn",
+    "no-underscore-dangle": "off",
+    "no-plusplus": "off",
+    "no-param-reassign": "warn",
+    "no-useless-escape": "warn",
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "radix": "off",
+    "no-shadow": "warn",
+    "quotes": [2, "single"],
+    "consistent-return": "warn",
+    "default-case": "warn",
+    "no-case-declarations": "off"
+  }
+}
+
