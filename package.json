@@ -1,6 +1,6 @@
 {
   "name": "never-undefined",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Optional chaining with a recursive ES6 Proxy",
   "main": "dist/index.js",
   "scripts": {
@@ -22,10 +22,9 @@
   ],
   "author": "v1ll0",
   "license": "MIT",
-  "dependencies": {
-    "@babel/runtime": "^7.3.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/runtime": "^7.3.1",
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
     "@babel/plugin-transform-runtime": "^7.2.0",
