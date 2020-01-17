@@ -1,6 +1,6 @@
 {
   "name": "never-undefined",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Optional chaining with a recursive ES6 Proxy",
   "main": "dist/index.js",
   "scripts": {
@@ -22,6 +22,14 @@
   ],
   "author": "v1ll0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V1LL0/never-undefined.git"
+  },
+  "bugs": {
+    "url": "https://github.com/V1LL0/never-undefined/issues"
+  },
+  "homepage": "https://github.com/V1LL0/never-undefined#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/runtime": "^7.3.1",
